@@ -2,9 +2,9 @@ CREATE DATABASE XYZ;
 USE XYZ;
 
 CREATE TABLE Employee (
-    id INT PRIMARY KEY,
+    id INT NOT NULL PRIMARY KEY,
     name VARCHAR(50),
-    salary INT
+    salary INT DEFAULT 25000
 );
 
 INSERT INTO Employee
